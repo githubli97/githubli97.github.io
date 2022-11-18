@@ -3,14 +3,16 @@ layout:       post
 title:        "怎么把参数像HttpServletRequest注入到Controller的method"
 author:       "hang.li"
 header-style: text
-catalog:      true
+catalog:      java
 tags:
     - springmvc
-    - spring
+    - spring-boot
     - java
 ---
 # spring-boot
-> 1. 定义 HandlerMethodArgumentResolver 
+# 1. 定义 HandlerMethodArgumentResolver 
+
+
 ```java
 public class ArkMethodArgumentResolver implements HandlerMethodArgumentResolver {
     /**
@@ -29,10 +31,10 @@ public class ArkMethodArgumentResolver implements HandlerMethodArgumentResolver 
         return null;
     }
 }
-
-
 ```
-> 2. 添加到spring-boot提供的扩展mvc的方法中
+
+# 2. 添加到spring-boot提供的扩展mvc的方法中
+
 ```java
 @Configuration
 public class ArkWebMvcConfigurer implements WebMvcConfigurer {
