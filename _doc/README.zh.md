@@ -1,4 +1,4 @@
-# Hux blog 模板
+# hang.li blog 模板
 
 ### [我的博客在这里 &rarr;](http://huxpro.github.io)
 
@@ -79,8 +79,8 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: hang.li Blog             # 你的博客网站标题
+SEOTitle: hang.li Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
@@ -105,7 +105,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "hang.li"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
@@ -251,7 +251,7 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 
 #### SEO Title
 
-我的博客标题是 **“Hux Blog”** 但是我想要在搜索的时候显示 **“黄玄的博客 | Hux Blog”** ，这个就需要SEO Title来定义了。
+我的博客标题是 **“hang.li Blog”** 但是我想要在搜索的时候显示 **“黄玄的博客 | hang.li Blog”** ，这个就需要SEO Title来定义了。
 
 其实这个SEO Title就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
