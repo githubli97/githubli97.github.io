@@ -7,11 +7,6 @@ hang.li Blog User Manual
 	* [Config](#configs)
 	* [Posts](#posts)
 * Components
-	* [SideBar](#sidebar)
-	* [Mini About Me](#mini-about-me)
-	* [Featured Tags](#featured-tags)
-	* [Friends](#friends)
-	* [Keynote Layout](#keynote-layout)
 * Misc
 	* [Comment](#comment)
 	* [Analytics](#analytics)
@@ -58,8 +53,8 @@ SEOTitle: hang.li Blog          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: githubli97     # modify this account to yours
+weibo_username: githubli97      # the footer woule be auto-updated.
 
 # Build settings
 paginate: 10                # nums of posts in one page
@@ -242,7 +237,7 @@ Just checkout the code offered by Google/Baidu, and copy paste here, all the res
 ### SEO Title
 
 Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“hang.li Blog”** but I want the title shows in search engine is **“黄玄的博客 | hang.li Blog”** which is multi-language.
+It's possible that you want the two things different. For me, my site-title is **“hang.li Blog”** but I want the title shows in search engine is **“李航的博客 | hang.li Blog”** which is multi-language.
 
 So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
 
@@ -294,7 +289,7 @@ Shout out to [@kitian616/jekyll-TeXt-theme](https://github.com/kitian616/jekyll-
 
 - Feeling annoyed to delete my blog post after clone or pull? Try **Boilerplate (Beta)** to help you get started quickly and easily merge update.
 - `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
-- Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
+- Fixed [issue#15](https://github.com/githubli97/githubli97.github.io/issues/15) about code wrap.
 
 #### V1.5.1
 
