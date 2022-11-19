@@ -47,5 +47,5 @@ tags:
 
 
 ##  Idea增加remote启动方式
-![img.png](/img/ide/in-post/idea-remotedebug-config.png)
+![img.png](/img/in-post/ide/idea-remotedebug-config.png)
 
