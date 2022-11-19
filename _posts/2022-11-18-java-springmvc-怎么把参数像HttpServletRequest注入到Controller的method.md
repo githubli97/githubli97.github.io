@@ -6,7 +6,7 @@ header-style: text
 catalog:      java
 tags:
     - springmvc
-    - spring-boot
+    - spring
     - java
 ---
 # spring-boot

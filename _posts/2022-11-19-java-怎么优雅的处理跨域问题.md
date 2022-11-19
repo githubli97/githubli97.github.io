@@ -5,7 +5,7 @@ author:       "hang.li"
 header-style: text
 catalog:      java
 tags:
-    - spring-boot
+    - spring
     - java
 ---
 
