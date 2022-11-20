@@ -9,10 +9,8 @@ tags:
     - java
 ---
 
-@[TOC](线程池简单实现)
-
 # UML
-![img.png](img/in-post/java/threadpooluml.png)
+![img.png](/img/in-post/java/threadpooluml.png)
 # 核心代码
 ## 任务队列满时执行的拒绝策略
 - 枚举单例 + 策略(DenyPolicyStrategy.java)
